@@ -7,20 +7,22 @@
 </head>
 <body>
     
+    <h1>Calculadora</h1><br>
+
+    <h2>Digite os respectivos números que deseja calcular</h2><br><br>
     
-    <label for=""> 1° número</label>
-<input type="text" name="" id="numero1">
-<label for="">2° número</label>
-<input type="text" id="numero2">
+    <label for="num1">1° Número:</label>
+    <input type="number" id="num1"> <br><br>
 
-<label for="">Operação</label>
-<input type="button">
-<input type="button">
+    <label for="num2"> 2°Número: </label>
+    <input type="number" id="num2"> <br><br>
 
-<br><br>
+    <button onclick="adicionarNumeros()">+</button>
+<button onclick="subtrairNumeros()">-</button><br><br>
 
-<label for="">Resultado:</label> <br>
-<input type="" name="" id="">
+<label for="resultado">Resultado:</label>
+<input type="text" id="resultado" readonly>
+
 
 <script src="index.js">
 
